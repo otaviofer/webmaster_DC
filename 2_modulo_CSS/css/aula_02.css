@@ -1,0 +1,18 @@
+/*
+#div1{
+	color: red;
+}
+
+atribuimos uma 'id #' para uma tag se não formos repeti-lo;
+
+Geralmente utilizamos 'id' para javascript e classes para css;
+*/
+
+.div1{
+	color: red;
+	background-color: black;
+}
+
+.div2 h1{
+	color: orange;
+}

@@ -1,0 +1,43 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body 
+{
+	height: 100%;
+}
+
+.artigo
+{
+	width: 4%;
+	height: auto;
+	text-align: center;
+	background-color: rgb(200,200,200);
+}
+
+/*Usamos altura e largura minima quando estamos trabalhando com porcentagens, pixel já sçao uma largura/altura definida*/
+
+.artigo h1
+{
+	color: #069;
+	font-size: 23px;
+
+	/*pesquisar o que é '1em'*/
+
+	font-style: normal;
+	font-weight: normal;
+	/*font-variant: small-caps;*/
+}
+
+.artigo p
+{
+	color: #b4b4b4;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 12px;
+	line-height: 40px;
+	text-align: left;
+}

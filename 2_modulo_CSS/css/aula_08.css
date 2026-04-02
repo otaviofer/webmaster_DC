@@ -1,0 +1,56 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body 
+{
+	height: 100%;
+}
+
+/* ====================
+ Estilo para lista não-ordenada;
+==================== */
+
+.lista,.lista2 {
+	list-style-position: inside;
+	margin-left: 20px;
+
+	list-style-type: square;
+	/*list-style-type: circle;
+  	list-style-type: upper-roman;
+  	list-style-type: lower-alpha;
+  	list-style-type: decimal;*/
+}
+
+.lista  .item3, .lista2 .item3 {
+	font-weight: bold;
+}
+
+.lista li,.lista2 li {
+	color: #4b4b4b;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+/*
+
+.lista
+.lista li
+.lista  .item3
+.lista li.item3
+
+*/
+
+/* ====================
+ Estilo para lista ordenada;
+
+ A diferença das duas listas é o padrão de estilização:
+ lista não-ordenada > bullets
+ lista ordenada > númerico
+==================== */
+
+ol {
+	list-style-position: inside;
+}

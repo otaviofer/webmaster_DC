@@ -1,0 +1,49 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.menu
+{
+	width: 900px;
+	/*background-color: green;*/
+
+	margin: 30px auto; /* centraliza elemento */
+
+	/*margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;*/
+
+    /*padding-top: 50px;
+  	padding-right: 30px;
+  	padding-bottom: 50px;
+  	padding-left: 80px;*/
+
+  	text-align: center;
+  	/*text-align: left;
+  	text-align: right;*/
+
+}
+
+/* =============================
+margin é o espaçamento externo;
+padding é o espaçamento interno;
+============================= */
+
+.menu a
+{
+	font-size: 20px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: red;
+	padding-right: 8px;
+
+	border-right: 1px solid black;
+}

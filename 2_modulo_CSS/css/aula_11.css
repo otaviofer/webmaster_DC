@@ -1,0 +1,29 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html,body 
+{
+	height: 100%;
+}
+
+/* ====================
+ Mais sobre espaçamentos;
+==================== */
+
+.center {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: gray;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.artigo {
+	width: 100%;
+	margin-bottom: 40px;
+}

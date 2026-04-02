@@ -1,0 +1,43 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	Estilo para o conteúdo do nosso site;
+*/
+
+.artigo
+{
+	width: 1280px;
+	margin: 40px auto;
+	text-align: center;
+	background-color: rgb(200,200,200);
+	padding: 40px;
+}
+
+.artigo h1
+{
+	color: #069;
+	font-size: 25px;
+
+	/*pesquisar o que é '1em'*/
+
+	font-family: "Tahoma";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+.artigo p
+{
+	color: black;
+	font-size: 17px;
+	font-family: tahoma;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 30px;
+	line-height: 40px;
+	text-align: left;
+}
