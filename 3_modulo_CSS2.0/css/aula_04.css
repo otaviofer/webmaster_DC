@@ -13,3 +13,18 @@ body {
     Tudo sobre backgrounds e como utilizar
     ======================
 */
+
+.bg{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+
+    /* BACKGROUNDS */
+
+    /* background-color: #ccc ou rgb(0,0,0) ou red */
+    background-color: red;
+    background-image: url('../images/superman-ice.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* repeat-x, repeat-y */
+}
