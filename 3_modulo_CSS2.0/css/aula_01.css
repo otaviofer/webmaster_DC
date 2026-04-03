@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.box{
+    width: 40%;
+    height: 300px;
+    color: gray;
+}
+
+.box-2 p{
+    /* o inicial seta os valores iniciais do navegador por padrão */
+    color: initial;
+}
+
+.box > .box-2 > span{
+    /* A propriedade inherit herda os valores da div pai sempre anterior de um elemento */
+    display: inline-block;
+    /* width: inherit;
+    height: inherit;
+    background-color: inherit; */
+}
