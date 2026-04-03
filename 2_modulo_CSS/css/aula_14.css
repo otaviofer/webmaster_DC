@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* ====================
+ O que é overflow e como utilizar
+==================== */
+
+.box,
+.box-2 {
+  width: 300px;
+  margin: 0 auto;
+  background-color: gray;
+
+  /* o overflow esconde tudo que ultrapassa uma altura definida */
+  /* overflow: hidden; 
+    overflow: scroll;
+    overflow: visible;
+    overflow: auto; */
+
+  /* overflow-x: auto;
+    overflow-y: auto; */
+
+  /* display: none; /* esconde toda o conteúdo e seu espaço fica fora do calculo da tela */
+}
+
+.box p,
+.box-2 p {
+  width: 100%;
+}
+
+.box-2 {
+  margin-top: 20px;
+  display: block;
+  background-color: red;
+}
