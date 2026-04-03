@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+input[type=text]{
+    background-color: green;
+}
+
+input[type=submit]{
+    background-color: blue;
+}
+
+/* Pegue todos os links que contenham o 'href' */
+/* 
+TEM QUE SER IGUAL
+
+a[href="http://www.google.com"]{
+    background-color: yellow;
+}
+
+Esse é menos especifico que o de cima
+[href="http://www.google.com"]{
+    background-color: red;
+} */
+
+/* 
+PROCURE ENTRE OS ESPAÇOS DO ATRIBUTO.
+
+a[attr~="google"]{
+    background-color: blue;
+} */
+
+/* 
+PROCURE EMQ UALQUER LUGAR.
+
+a[href*="google"]{
+    background-color: blue;
+} */
+
+/* 
+PROCURE A PALAVRA ESPECIFICA SEGUIDA DE TRAÇO
+
+a[attr|="google"]{
+    background-color: blue;
+} */
+
+/* 
+QUANDO COMEÇAMOS COM A PALAVRA
+
+a[attr^="goo"]{
+    background-color: red;
+} */
+
+/* 
+QUANDO TERMINAMOS COM A PALAVRA
+
+a[attr$="google"]{
+    background-color: yellow;
+} */
+
+/* Demais atributos consultar na w3schools*/
