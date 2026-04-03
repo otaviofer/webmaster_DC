@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*
+.table1{
+    width: 900px;
+
+    Por padrão as tabelas contem um espaçamento, o atrb collapse retira esses espaços
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr td{
+    height: 300px;
+    background-color: rgb(200,200,200);
+    vertical-align: bottom;
+    
+    variações:
+    vertical-align: top;
+    vertical-align: middle; 
+    border: 3px solid black;
+}
+*/
+
+.menu-fixed{
+    position: static; /*fixed - absolute - relative - static(padrão)*/
+    /* 
+    opções habilitadas ao usar o position
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+
+    /*
+    o absolute faz o elemento se mover a partir do "pai=body"
+    o relative faz o elemento se mover a partir da posição atual, independente de onde estiver
+    */
+
+    left: 30px;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    background-color: #069;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: green;
+}
+
+.box p{
+    width: 400px;
+}
+
