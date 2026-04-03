@@ -1,12 +1,11 @@
-*
-{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html,body 
-{
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 /* ====================
@@ -14,24 +13,25 @@ html,body
 ==================== */
 
 .center {
-	box-sizing: content-box;
-	width: 1280px;
-	margin: 0 auto;
-	background-color: gray;
+  box-sizing: content-box;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: gray;
 }
 
 .artigo {
-	display: inline-block;
-	width: 640px;
-	margin-right: -4px;
-	margin-top: 30px;
-	vertical-align: top;
-
-	/*border-left-style: dotted;
-	border-width: 3px;
-	border-color: red;*/
-
-	/*border-bottom: 3px dotted rgb(255, 0, 0);*/
-
 	outline: 3px solid blue;
+  display: inline-block;
+  width: 640px;
+  margin-right: -4px;
+  margin-top: 30px;
+  vertical-align: top;
+
+  /* border-left: dotted;
+  border-width: 3px;
+  border-color: rgb(255,0,0); 
+  ou:
+  border-bottom: 3px dotted rgb(255,0,0);*/
+
+  
 }
