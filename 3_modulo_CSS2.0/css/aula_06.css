@@ -14,47 +14,57 @@ body {
     ======================
 */
 
-.teste,.teste1,.teste2{
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 150px;
-    height: 30px;
-    display: inline-block;
-    /* background-color: #ccc; */
+ul {
+  list-style-position: inside;
 }
 
-.teste1{
-    background-color: rgb(98,98,98);
+.box {
+  width: 100%;
 }
 
-.teste2{
-    background-color: rgb(50,50,50);
+.box > div {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+  height: 400px;
+  background-color: red;
+  border: 1px solid black;
 }
 
 /* 
-QUANDO O MOUSE PASSAR ENCIMA
+PEGUE TODAS AS DIVS MENOS A DIV ESPECIFICA
 
-.teste:hover{
-    background-color: blue;
+.box div:not(.one){
+    background-color: gold;
 } */
 
 /* 
-QUANDO PRESSIONAMOS O MOUSE SOBRE O ELEMENTO
+PEGA O ÚLTIMO ELEMENTO DO TIPO ESPECIFICO
 
-.teste:active{
-    background-color: black;
+.box div:last-of-type p{
+    color: rgba(255,255,255,1);
+} */
+
+/*
+DE ACORDO COM  O TIPO DO ELEMENTO
+
+ul li:nth-of-type(2){
+    color: red;
 } */
 
 /* 
-QUANDO CLICAMOS E FOCAMOS NO ELEMENTO
-.teste:focus{
-    background-color: red;
-}
+DE ACORDO COM OS FILHOS(as)
 
-.textarea1{
-    display: block;
-    width: 600px;
-    height: 400px;
+ul span:nth-child(5){
+    color: red;
 } */
 
-/* MAIS PSEUDO CLASSES PROCURAR NA W3SCHOOLS */
+/* 
+PEGA O ÚLTIMO ELEMENTO DO MESMO TIPO
+
+.box div:last-of-type,
+.box p:last-of-type {
+  background-color: green;
+} */
+
+/* DEMAIS PESUDO CLASSES PESQUISAR NO W3SCHOOLS */
