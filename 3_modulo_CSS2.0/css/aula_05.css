@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*
+    ======================
+    Mais sobre backgrounds, text-align e exercícios
+    ======================
+*/
+
+.bg{
+    /*
+    width: 100%;
+    margin: 0 auto;
+    height: 30vh;
+    background-image: url('../images/batman-dark.jpg');
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/ /* scroll, fixed(efeito paralax) */
+
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top; */
+}
+
+.box{
+    width: 100%;
+    margin: 80px auto;
+    text-align: center; /* todo conteúdo dentro, se for inline-block vai ser centralizado */
+    background-color: rgb(255,0,0);
+}
+
+.item{
+    width: 100%;
+    /* margin-right: -4px; */
+    display: inline-block;
+}
+
+.item img{
+    width: 16%;
+}
+
+.item p{
+    display: inline-block;
+    background-color: purple;
+    text-align: left;
+}
+
+.last{
+    margin-right: 0;
+}
