@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*
+    ======================
+    PSEUDO CLASSES 1/2/3
+    ======================
+*/
+
+.teste,.teste1,.teste2{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    /* background-color: #ccc; */
+}
+
+.teste1{
+    background-color: rgb(98,98,98);
+}
+
+.teste2{
+    background-color: rgb(50,50,50);
+}
+
+/* 
+QUANDO O MOUSE PASSAR ENCIMA
+
+.teste:hover{
+    background-color: blue;
+} */
+
+/* 
+QUANDO PRESSIONAMOS O MOUSE SOBRE O ELEMENTO
+
+.teste:active{
+    background-color: black;
+} */
+
+/* 
+QUANDO CLICAMOS E FOCAMOS NO ELEMENTO
+.teste:focus{
+    background-color: red;
+}
+
+.textarea1{
+    display: block;
+    width: 600px;
+    height: 400px;
+} */
+
+/* MAIS PSEUDO CLASSES PROCURAR NA W3SCHOOLS */
