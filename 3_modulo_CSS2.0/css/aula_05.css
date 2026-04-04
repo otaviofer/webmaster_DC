@@ -13,9 +13,9 @@ body {
     Mais sobre backgrounds, text-align e exercícios
     ======================
 */
-
+/*
 .bg{
-    /*
+    
     width: 100%;
     margin: 0 auto;
     height: 30vh;
@@ -27,8 +27,8 @@ body {
 
     /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: top; */
-}
+    background-position: top; 
+}*/
 
 .box{
     width: 100%;
