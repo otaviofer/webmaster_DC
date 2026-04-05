@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Quicksand", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; */
+
+  /* <weight>: Use a value from 300 to 700
+  <uniquifier>: Use a unique and descriptive class name */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*
+    ======================
+    Criando formulário de contato profissional
+    ======================
+*/
+
+form {
+  width: 96%;
+  max-width: 600px;
+  margin: 30px auto;
+  margin: 0 auto;
+}
+
+form fieldset {
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+form legend {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(69, 69, 69);
+}
+
+form input[type="text"] {
+  display: inline-block;
+  margin-top: 30px;
+  width: 80%;
+  padding: 10px 13px;
+  border: 1px solid #ccc;
+}
+
+form input[type="text"]:focus,
+form select:focus, form textarea:focus {
+  outline: 0;
+}
+
+form select {
+  width: calc(80% + 26px);
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 13px;
+  border: 1px solid #ccc;
+  color: rgb(50, 50, 50);
+}
+
+form h2 {
+  margin-top: 20px;
+  color: rgb(50, 50, 50);
+}
+
+.input {
+  text-align: left;
+  margin: 20px;
+  display: inline-block;
+}
+
+.input span {
+  margin-left: 13px;
+  font-size: 16px;
+  color: rgb(69, 69, 69);
+}
+
+form textarea{
+    margin-top: 30px;
+  width: 80%;
+  padding: 10px 13px;
+  resize: none;
+  border: 1px solid #ccc;
+  height: 140px;
+}
+
+form input[type="submit"] {
+    margin-top: 30px;
+  background-color: #31f82e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 80%;
+  height: 45px;
+  transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: #21cf1e;
+  box-shadow: 0 0 0 5px #71fb6f;
+  color: #fff;
+}

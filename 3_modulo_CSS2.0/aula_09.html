@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<!--
+	================
+	Criando formulário de contato profissional
+	================
+-->
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Aula 09 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aula_09.css">
+</head>
+
+<body>
+    <form>
+        <fieldset> <!-- GRUPO DE ELEMENTOS DE FORMULÁRIO -->
+            <legend>My form</legend> <!-- NOME DO GRUPO -->
+            <div><input type="text" name="name" placeholder="Enter your name"></div>
+            <div><input type="text" name="email" placeholder="Enter your e-mail"></div>
+            <div>
+                <select name="lista">
+                    <option disabled selected>How old are you?</option>
+                    <option>20</option>
+                    <option>25+</option>
+                    <option>45+</option>
+                </select> <!-- lista -->
+            </div>
+
+            <h2>What city are you from?</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="cidade"><span>Winter Garnden</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade"><span>Orlando</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade"><span>Treviso</span>
+                </div>
+            </div> <!-- radio-input -->
+
+            <h2>What you like food?</h2>
+            <div class="input">
+                <div>
+                    <input type="checkbox" name="cidade"><span>Fried fish</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="cidade"><span>Roast chicken</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="cidade"><span>Stroganoff</span>
+                </div>
+            </div> <!-- radio-input -->
+
+            <div>
+                <textarea placeholder="Do you have any observations?"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="acao" value="To send">
+            </div>
+        </fieldset>
+    </form> <!-- form -->
+</body>
+
+</html>
