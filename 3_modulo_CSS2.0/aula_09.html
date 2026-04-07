@@ -18,57 +18,28 @@
 </head>
 
 <body>
-    <!--
     <form>
-        <fieldset>
-            <legend>My form</legend>
-            <div><input type="text" name="name" placeholder="Enter your name"></div>
-            <div><input type="text" name="email" placeholder="Enter your e-mail"></div>
-            <div>
-                <select name="lista">
-                    <option disabled selected>How old are you?</option>
-                    <option value="20">20</option>
-                    <option value="25+">25+</option>
-                    <option value="45+">45+</option>
-                </select> 
-            </div>
+        <!-- Não da pra personalizar o input file, então criamos uma label fazendo referência ao input -->
 
-            <h2>What city are you from?</h2>
-            <div class="input">
-                <div>
-                    <input type="radio" name="Winter Garnden"><span>Winter Garnden</span>
-                </div>
-                <div>
-                    <input type="radio" name="Orlando"><span>Orlando</span>
-                </div>
-                <div>
-                    <input type="radio" name="Treviso"><span>Treviso</span>
-                </div>
-            </div>
+        <input type="file" name="file" id="file">
+        <label class="file" for="file">Click Here</label>
 
-            <h2>What you like food?</h2>
-            <div class="input">
-                <div>
-                    <input type="checkbox" name="cidade[]" value="Fried fish"><span>Fried fish</span>
-                </div>
-                <div>
-                    <input type="checkbox" name="cidade[]" value="Roast chicken"><span>Roast chicken</span>
-                </div>
-                <div>
-                    <input type="checkbox" name="cidade[]" value="Stroganoff"><span>Stroganoff</span>
-                </div>
-            </div>
+        <select>
+            <option>Item 1</option>
+            <option>Item 1</option>
+        </select>
 
-            <div>
-                <textarea name="observation" placeholder="Do you have any observations?"></textarea>
-            </div>
+        <br><br>
 
-            <div>
-                <input type="submit" name="acao" value="To send">
-            </div>
-        </fieldset>
+        <div>
+            <input type="checkbox" name="checkbox" id="check1">
+            <label for="check1"></label>
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="check2">
+            <label for="check2"></label>
+        </div>
     </form>
-    -->
 </body>
 
 </html>
