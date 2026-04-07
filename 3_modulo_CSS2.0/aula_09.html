@@ -18,55 +18,57 @@
 </head>
 
 <body>
+    <!--
     <form>
-        <fieldset> <!-- GRUPO DE ELEMENTOS DE FORMULÁRIO -->
-            <legend>My form</legend> <!-- NOME DO GRUPO -->
+        <fieldset>
+            <legend>My form</legend>
             <div><input type="text" name="name" placeholder="Enter your name"></div>
             <div><input type="text" name="email" placeholder="Enter your e-mail"></div>
             <div>
                 <select name="lista">
                     <option disabled selected>How old are you?</option>
-                    <option>20</option>
-                    <option>25+</option>
-                    <option>45+</option>
-                </select> <!-- lista -->
+                    <option value="20">20</option>
+                    <option value="25+">25+</option>
+                    <option value="45+">45+</option>
+                </select> 
             </div>
 
             <h2>What city are you from?</h2>
             <div class="input">
                 <div>
-                    <input type="radio" name="cidade"><span>Winter Garnden</span>
+                    <input type="radio" name="Winter Garnden"><span>Winter Garnden</span>
                 </div>
                 <div>
-                    <input type="radio" name="cidade"><span>Orlando</span>
+                    <input type="radio" name="Orlando"><span>Orlando</span>
                 </div>
                 <div>
-                    <input type="radio" name="cidade"><span>Treviso</span>
+                    <input type="radio" name="Treviso"><span>Treviso</span>
                 </div>
-            </div> <!-- radio-input -->
+            </div>
 
             <h2>What you like food?</h2>
             <div class="input">
                 <div>
-                    <input type="checkbox" name="cidade"><span>Fried fish</span>
+                    <input type="checkbox" name="cidade[]" value="Fried fish"><span>Fried fish</span>
                 </div>
                 <div>
-                    <input type="checkbox" name="cidade"><span>Roast chicken</span>
+                    <input type="checkbox" name="cidade[]" value="Roast chicken"><span>Roast chicken</span>
                 </div>
                 <div>
-                    <input type="checkbox" name="cidade"><span>Stroganoff</span>
+                    <input type="checkbox" name="cidade[]" value="Stroganoff"><span>Stroganoff</span>
                 </div>
-            </div> <!-- radio-input -->
+            </div>
 
             <div>
-                <textarea placeholder="Do you have any observations?"></textarea>
+                <textarea name="observation" placeholder="Do you have any observations?"></textarea>
             </div>
 
             <div>
                 <input type="submit" name="acao" value="To send">
             </div>
         </fieldset>
-    </form> <!-- form -->
+    </form>
+    -->
 </body>
 
 </html>
