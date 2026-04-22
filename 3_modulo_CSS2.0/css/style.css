@@ -1,0 +1,27 @@
+/** 
+  FONTES PERSONALIZADAS E MAIS CONCEITOS 
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* IMPORTANDO DO PRÓPRIO DIRETÓRIO */
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+.box p {
+  font-family: "Raleway";
+}
+
+.text {
+  font-family: tahoma !important; /* '!important' nível de expecificação maior*/
+}
